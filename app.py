@@ -6,7 +6,7 @@ from pymongo.write_concern import WriteConcern
 app = Flask(__name__)
 
 # Connect to MongoDB Atlas Replica Set using your cluster details
-MONGO_URI = "mongodb+srv://new_user3:YOUR_PASSWORD@lab6cluster.epcwk6x.mongodb.net/?retryWrites=true&w=majority&appName=Lab6Cluster"
+MONGO_URI = "mongodb+srv://new_user3:634WnOWkr39ItFps@lab6cluster.epcwk6x.mongodb.net/?retryWrites=true&w=majority&appName=Lab6Cluster"
 client = MongoClient(MONGO_URI)
 db = client["ev_db"]
 collection = db["vehicles"]
